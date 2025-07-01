@@ -36,8 +36,8 @@ export default function Login() {
   };
 
   return (
-    <section className="mt-[50px]" id="Contact">
-      <div className="bg-gradient-to-r from-pink-100 bg-pink-200 text-white w-full min-h-[200px] font-poppins">
+    <section className="mt-[50px] flex flex-row items-center justify-center" id="Login">
+      <div className="bg-gradient-to-r from-green-100 bg-green-200 text-white w-[500px] min-h-[500px] font-poppins">
         <h1 className="flex justify-center items-center text-black text-4xl font-bold py-6">
           LOGIN
         </h1>
@@ -79,7 +79,7 @@ export default function Login() {
 
             <button
               type="submit"
-              className="w-full bg-blue-600 text-white py-3 rounded-md hover:bg-blue-700 transition"
+              className="w-full bg-green-400 text-white py-3 rounded-md hover:bg-green-700 transition"
             >
               Login
             </button>
